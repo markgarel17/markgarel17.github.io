@@ -1,9 +1,52 @@
+/* Mark Faderon */
+
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-  background: gray;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=39704);
+	background: black;
+}
+
+#container {
+	background: gray;
+	width: 900px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
+header {
+	background: skyblue;
+	width: 100%;
+	min-height: 200px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+#mainnav ul {
+	/*text-align: center;*/
+}
+
+#mainnav ul li {
+	float: left;
+	border-right: 2px solid black;
+}
+
+#mainnav ul li a {
+	display: inline-block;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#mainnav ul li a:hover,
+#mainnav ul li a:active {
+	background: red;
 }
