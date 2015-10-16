@@ -7,6 +7,7 @@
 
 body {
 	background: black;
+	cursor: url('BladePointer.ani');
 }
 
 #container {
