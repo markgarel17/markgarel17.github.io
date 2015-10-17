@@ -9,7 +9,7 @@
 
 body {
 	background: black;
-	cursor: url(styles/cursor.cur), auto;
+	/*cursor: url(styles/cursor.cur), auto;*/
 }
 
 #container {
@@ -67,3 +67,10 @@ div#content h1 {
 div#content p {
 	margin: 20px;
 }
+
+/* Start http://www.cursors-4u.com */
+body, 
+a:hover {
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur1.ani), 
+	url(http://cur.cursors-4u.net/cursors/cur-1/cur1.png), progress !important;} 
+/* End http://www.cursors-4u.com */
