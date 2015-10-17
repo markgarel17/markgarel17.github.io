@@ -24,16 +24,17 @@
       </nav>
       
       <div id="content">
-        Enter Number: <input type="text" id="numOne">
+        Enter Number: <input type="text" id="numOne" class="textbox">
         <br /><br />
-        Enter Number: <input type="text" id="numTwo">
+        Enter Number: <input type="text" id="numTwo" class="textbox">
         <br /><br />
-        <button id="add" onclick="calculate('add')">Add</button>
-        <button id="subtract" onclick="calculate('sub')">Subtract</button>
-        <button id="multiply" onclick="calculate('mul')">Multiply</button>
-        <button id="divide" onclick="calculate('div')">Divide</button>
+        <button id="add" class="button" onclick="calculate('add')">Add</button>
+        <button id="subtract" class="button" onclick="calculate('sub')">Subtract</button>
+        <button id="multiply" class="button" onclick="calculate('mul')">Multiply</button>
+        <button id="divide" class="button" onclick="calculate('div')">Divide</button>
         <br /><br />
-        <span id="operation">Result:</span> <input type="text" id="result" disabled="disabled">
+        <span id="operation">Result:</span> <input type="text" id="result" class="textbox" disabled="disabled">
+        <button id="clear" class="button" onclick="calculate()">Clear</button>
       </div>
       
       <footer>

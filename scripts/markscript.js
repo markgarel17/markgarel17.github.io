@@ -22,6 +22,11 @@ function calculate(operation)
 		case "div": result += numOne / numTwo;
 					$('#operation').text("Quotient:");
 					break;
+		default: 	$('#numOne').val('');
+					$('#numTwo').val('');
+					$('#operation').text("Result:");
+					$("#result").val('');
+					break;
 	}
 	
 	if(result == "NaN")
