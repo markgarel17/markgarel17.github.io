@@ -74,6 +74,10 @@ a {
    background: #1b435e;
 }
 
+.buttonActive {
+	background: #0086e0;
+}
+
 /* Calc Textbox */
 
 .textbox {
@@ -135,4 +139,33 @@ a#gototop {
 	background: #001B26;
 	color: white;
 	border-radius: 25px;
+}
+
+table#listofPerson {
+	width: 100%;
+	text-align: left;
+}
+
+div#addPersonForm {
+	display: none;
+	background: white;
+	width: 250px;
+	padding: 15px;
+	border-radius: 10px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	margin-top: -76px;
+	margin-left: -140px;
+}
+
+div#addPersonForm ul li {
+	padding-bottom: 5px;
+}
+
+div#addPersonForm button {
+	float: right;
+	margin: 5px 0 0 5px;
 }

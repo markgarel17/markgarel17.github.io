@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Mark Faderon -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts/markscript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+  
+  <body>   
+    <div id="container">
+      <header>
+        
+      </header>
+      
+      <nav id="mainnav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="places.html">Places</a></li>
+          <li><a href="person.html" class="selected">Person</a></li>
+        </ul>
+      </nav>
+      
+      <div id="content">
+        <button id="addPersonBtn" class="button" onclick="addPFormShow()">Add Person</button> 
+        <br/>
+        <br/>
+        <hr/>
+        <br/>
+        <table id="listofPerson"></table>
+        <script>
+          displayPersons();
+        </script>
+        
+        <div id="addPersonForm">
+          <ul>
+            <li>Name: <input type="text" id="pName" placeholder="Bob Smith" maxlength="20"></li>
+            <li>Age: <input type="text" id="pAge" placeholder="45" maxlength="3" size="1"></li>
+            <li>Message: <input type="text" id="pMessage" placeholder="I Born to Code!" maxlength="20"></li>
+          </ul>
+          <button class="button" onclick="addPerson()">Save</button>
+          <button class="button" onclick="addPFormHide()">Close</button>
+        </div>
+        
+      </div>
+      
+      <footer>
+        
+      </footer>
+    </div>
+   
+  </body>
+
+</html>
