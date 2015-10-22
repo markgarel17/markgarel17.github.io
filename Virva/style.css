@@ -39,14 +39,6 @@ nav ul {
 	vertical-align: top;
 }
 
-.aUnderline {
-	text-decoration: underline !important;
-}
-
-.colorBlack {
-	color: black !important;
-}
-
 /* END GLOBAL */
 
 div#container {
@@ -305,4 +297,8 @@ footer nav ul li {
 footer nav ul li a {
 	color: #00A6A4;
 	text-decoration: none;
+}
+
+footer nav ul li a:hover {
+	text-decoration: underline;
 }
