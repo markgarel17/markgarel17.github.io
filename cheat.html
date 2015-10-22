@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Mark Faderon -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts/markscript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<style>
+		/* Remove Invisible Space in List (display-inline) */
+		
+		li#removeSpace ul li {
+			display: inline-block;
+		}
+		
+		
+		li#removeSpace ul li a {
+			display: inline-block;
+			padding: 5px;
+			
+			background: white;
+			border-left: 2px solid red;
+		}
+		
+		li#removeSpace ul li:last-child a {
+			border-right: 2px solid red;
+		}
+		
+		ul#noSpace {
+			font-size: 0;
+		}
+		
+		ul#noSpace li {
+			font-size: large;
+		}
+		
+		
+	</style>
+  </head>
+  
+  <body>
+    <div id="container">
+      <header>
+        
+      </header>
+      
+      <nav id="mainnav">
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="places.html">Places</a></li>
+          <li><a href="person.html">Person</a></li>
+          <li><a href="cheat.html">Cheat</a></li>
+        </ul>
+      </nav>
+	        
+      <div id="content">
+		<h1>Cheat Sheet</h1>
+		<ol>
+			<li id="removeSpace">
+				<h3>Remove Invisible Space in List (display-inline)</h3>
+				<ul>
+					<li><a href="">Dog</a></li>
+					<li><a href="">Cat</a></li>
+					<li><a href="">Mouse</a></li>
+				</ul>
+				<p> 
+					Both got same Style  <br/>
+					the Unordered List below got fontsize: 0; <br/>
+					and it's List got fontsize: large;
+				</p>
+				<ul id="noSpace">
+					<li><a href="">Dog</a></li>
+					<li><a href="">Cat</a></li>
+					<li><a href="">Mouse</a></li>
+				</ul>
+			</li>
+		</ol>
+      </div>
+      
+      <footer>
+        
+      </footer>
+    </div>
+   
+  </body>
+
+</html>
