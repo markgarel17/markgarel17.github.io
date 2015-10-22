@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Job</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<ul>
+					<li><a href="">CREATIVES</a></li>
+					<li><a href="">EMPLOYERS</a></li>
+				</ul>
+			</header>
+			<nav id="mainnav">
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="job.html" id="selected">JOBS</a></li>
+					<li><a href="">CANDIDATES</a></li>
+					<li><a href="">MY ACCOUNT</a></li>
+					<li><a href="">EXTRAS</a></li>
+					<li><a href="">HELP</a></li>
+				</ul>
+			</nav>
+			<div id="content">
+				<div id="postAJob">
+					<div id="jobHeader">
+						<span id="heading">POST A JOB</span>
+						<span class="floatRight"><span>*</span> Relavant Info must be provided</span>
+					</div>
+					<div id="jobFloatLeft" class="floatLeft">
+						<p>
+							Company Name<span class="fontsize12px verticalAlignTop">*</span> <br/>
+							<input type="text" id="cName" placeholder=" Please write">
+						</p>
+						<p>
+							Job Description<span class="fontsize12px verticalAlignTop">*</span> <br/>
+							<span class="fontsize12px">Responsibilities, work experience, skills, or education</span> <br/>
+							<textarea name="jobDesc" id="jDesc" cols="30" rows="10" placeholder=" Please write"></textarea>
+						</p>
+					</div>
+					<div id="jobFloatRight" class="floatRight">
+						<p>
+							Job Title<span class="fontsize12px verticalAlignTop">*</span> <br/>
+							<input type="text" id="jTitle" placeholder=" Please write">
+						</p>
+						<p>
+							City, Region or Postcode<span class="fontsize12px verticalAlignTop">*</span> <br/>
+							<input type="text" id="cityRegPost" placeholder=" Please write">
+						</p>
+						<p>
+							Job Type <br/>
+							<select id="jType">
+								<option value="" disabled selected>Please select</option>
+								<option value="">Full-time</option>
+								<option value="">Permanent</option>
+								<option value="">Contract</option>
+								<option value="">Internship</option>
+								<option value="">Part-time</option>
+								<option value="">Temporary</option>
+								<option value="">Apprenticeship</option>
+								<option value="">Casual</option>
+								<option value="">Volunteer</option>
+							</select>
+						</p>
+						<p>
+							Salary <br/>
+							<input type="text" id="salary" placeholder=" $ 0">
+						</p>
+						
+						<p id="perTimeCheckBox">
+							<input type="checkbox" name="perTime" id="ph" value="hour" checked/><label for="ph" class="fontsize12px"> Per hour</label><br/>
+							<input type="checkbox" name="perTime" id="pd" value="day"/><label for="pd" class="fontsize12px"> Per day</label><br/>
+							<input type="checkbox" name="perTime" id="pm" value="month"/><label for="pm" class="fontsize12px"> Per month</label><br/>
+							<input type="checkbox" name="perTime" id="py" value="year"/><label for="py" class="fontsize12px"> Per year</label><br/>
+						</p>
+					</div>
+					<div id="jobFooter">
+						<a href="" class="button">CONTINUE</a>
+						or
+						<a href="">skip</a>
+					</div>
+				</div> <!-- END POST A JOB -->
+			</div> <!-- END CONTENT -->
+			<div id="sidebar">
+				
+			</div>
+			<div id="footernav">
+				<div id="head">
+					<ul>
+						<li>TOOLS</li>
+						<li>COMPANY</li>
+						<li>CONNECT</li>
+						<li>EMPLOYERS</li>
+					</ul>
+				</div>
+				
+				<div id="body">
+					<div id="navTools">
+						<ul>
+							<li><a href="">Profile</a></li> 
+							<li><a href="">Recent searches</a></li>
+							<li><a href="">Most interesting jobs</a></li>
+							<li><a href="">Applied jobs</a></li>
+							<li><a href="">Helping and Hand</a></li>
+						</ul>
+					</div>
+					<div id="navCompany">
+						<ul>
+							<li><a href="">About VIRVA</a></li>
+							<li><a href="">Media</a></li>
+							<li><a href="">Work for VIRVA</a></li>
+							<li><a href="">Interested in investment</a></li>
+						</ul>
+					</div>
+					<div id="navConnect">
+						<ul>
+							<li><a href="">Contact us/FAQs</a></li>
+							<li><a href="">Blog</a></li>
+						</ul>
+					</div>
+					<div id="navEmployers">
+						<ul>
+							<li><a href="">Register for free</a></li>
+							<li><a href="">Media</a></li>
+							<li><a href="">Products & prices</a></li>
+							<li><a href="">Corporate Training</a></li>
+							<li><a href="">Customer service</a></li>
+						</ul>
+					</div>
+				</div>
+			</div> <!--END FOOTER NAV -->
+			<footer>
+				<nav>
+					<ul>
+						<li><a href="">Privacy</a></li>
+						<li><a href="" class="aUnderline">Terms & Conditions</a></li>
+						<li><a href="">Help centre</a></li>
+						<li><a href="">Site Map</a></li>
+						<li>&copy VIRVA 2015. All rights reserved.</li>
+					</ul>
+				</nav>
+			</footer>
+		</div> <!--END CONTAINER-->
+	</body>
+</html>
