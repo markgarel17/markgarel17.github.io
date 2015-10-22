@@ -1,7 +1,15 @@
+@font-face { 
+	font-family: "Elkwood";
+	src: url('Elkwood.ttf');
+}
+
 * {
 	padding: 0;
 	margin: 0;
+	font-family: "Elkwood";
 }
+
+
 
 body {
 	background: gray;
@@ -240,13 +248,13 @@ div#footernav div#body div ul {
 
 div#footernav div#body div {
 	padding-top: 50px;
-	padding-left: 110px;
 	height: 250px;
 	float: left;
 }
 
 div#footernav div#body div#navTools {
 	width: 160px;
+	padding-left: 145px;
 }
 
 div#footernav div#body div#navCompany {
