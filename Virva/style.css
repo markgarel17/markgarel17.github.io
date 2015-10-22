@@ -254,16 +254,17 @@ div#footernav div#body div {
 }
 
 div#footernav div#body div#navTools {
-	width: 160px;
-	padding-left: 145px;
+	width: 150px;
+	padding-left: 160px;
 }
 
 div#footernav div#body div#navCompany {
-	width: 205px;
+	width: 195px;
+	padding-left: 10px;
 }
 
 div#footernav div#body div#navConnect {
-	width: 200px;
+	width: 190px;
 }
 
 div#footernav div#body div ul li {
