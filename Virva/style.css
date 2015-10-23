@@ -331,6 +331,11 @@ div#content div#formDiv div#weFloatLeft {
 	padding-left: 50px;
 }
 
+div#content div#formDiv div#weFloatLeft span#curWorkHereCB {
+	float: right;
+	padding-right: 50px;
+}
+
 div#content div#formDiv div#weFloatRight {
 	padding-right: 50px;
 }
