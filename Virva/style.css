@@ -356,6 +356,10 @@ footer nav ul li a:hover {
 	padding-left: 75px;
 }
 
+#e_postjobRight {
+ 	margin-right: 50px;
+}
+
 #e_postjob_perTime input {
 	margin: 3px 3px 3px 4px;
 }
