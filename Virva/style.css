@@ -348,13 +348,20 @@ footer nav ul li a:hover {
 
 #e_postjobLeft,
 #e_postjobRight {
-	width: 300px;
 	box-sizing: border-box;
 	height: 425px;
 }
 
 #e_postjobLeft {
 	padding-left: 75px;
+}
+
+#e_postjob_perTime input {
+	margin: 3px 3px 3px 4px;
+}
+
+#e_postjob_perTime label {
+	vertical-align: middle;
 }
 
 /* CREATIVES - WORK EXPERIENCE */
